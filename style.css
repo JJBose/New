@@ -24,7 +24,7 @@ nav {
  list-style-type: none;
  margin: 0;
  padding: 0;
- width: 5%;
+ width: 7.5%;
  background-color: #f1f1f1;
  position: fixed;
  left: 0;
@@ -226,7 +226,7 @@ footer p{
  margin:20px 10px;
  border-radius:50%;
 }
-.social-icons a:hover{
+.social-icons a:hover, .social a:hover{
  background-color:#000000;
  box-shadow:2px 2px 12px rgba(0,0,0,0.2);
  transition:all ease 0.5s;
@@ -254,10 +254,6 @@ footer p{
  background-color:#FFFFFF;
  border:1px solid #CBCBCB;
  box-shadow:2px 2px 12px rgba(0,0,0,0.2);
-}
-.social a:hover{
- background-color:#000000;
- transition:all ease 0.5s;
 }
 @media screen and (max-width: 1060px) {
   #primary { width:67%; }
